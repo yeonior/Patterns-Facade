@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2526C0F279A883D0026FBE1 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2526C0E279A883D0026FBE1 /* ImageDataProvider.swift */; };
 		A2D18E332799D47B0070F387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D18E322799D47B0070F387 /* AppDelegate.swift */; };
 		A2D18E352799D47B0070F387 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D18E342799D47B0070F387 /* SceneDelegate.swift */; };
 		A2D18E372799D47B0070F387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D18E362799D47B0070F387 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2526C0E279A883D0026FBE1 /* ImageDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataProvider.swift; sourceTree = "<group>"; };
 		A2D18E2F2799D47B0070F387 /* Patterns-Facade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patterns-Facade.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D18E322799D47B0070F387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2D18E342799D47B0070F387 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A2D18E322799D47B0070F387 /* AppDelegate.swift */,
 				A2D18E342799D47B0070F387 /* SceneDelegate.swift */,
 				A2D18E362799D47B0070F387 /* ViewController.swift */,
+				A2526C0E279A883D0026FBE1 /* ImageDataProvider.swift */,
 				A2D18E382799D47B0070F387 /* Main.storyboard */,
 				A2D18E3B2799D47C0070F387 /* Assets.xcassets */,
 				A2D18E3D2799D47C0070F387 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				A2D18E372799D47B0070F387 /* ViewController.swift in Sources */,
 				A2D18E332799D47B0070F387 /* AppDelegate.swift in Sources */,
+				A2526C0F279A883D0026FBE1 /* ImageDataProvider.swift in Sources */,
 				A2D18E352799D47B0070F387 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ enum ImageSaverError: Error {
 
 enum ImageType {
     case png
-    case jpeg(qualityCompression: CGFloat)
+    case jpeg(compressionQuality: CGFloat)
 }
 
 class ViewController: UIViewController {
