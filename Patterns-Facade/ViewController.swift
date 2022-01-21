@@ -21,10 +21,17 @@ enum ImageType {
 
 class ViewController: UIViewController {
     
+    let imageSaver = ImageSaverFacade()
+    let image = UIImage(named: "image")!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        do {
+            try imageSaver.save(image: image, type: .png, fileName: "image", overwriting: true)
+        } catch {
+            print(error)
+        }
     }
 }
 
